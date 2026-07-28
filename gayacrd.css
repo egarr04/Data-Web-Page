@@ -1,0 +1,171 @@
+/*Tabel*/
+
+.container {
+    margin: 20px;
+}
+
+.container h2 {
+    clear: both;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: left;
+    margin-top: 0;
+    width: 100%;
+}
+
+.button {
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+}
+
+.button.button-add {
+    background-color: rgb(30, 178, 198);
+    left: 10; 
+}
+
+.button.button-edit {
+    
+    background-color: rgb(30, 178, 198); 
+}
+
+.button.button-delete {
+    background-color: red; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border-bottom: 1px solid pink;
+    padding: 8px;
+    text-align: center;
+}
+
+th:last-child, td:last-child {
+    border-right: none; 
+}
+
+th:first-child, td:first-child {
+    border-left: none; 
+}
+
+tr:last-child th, tr:last-child td {
+    border-bottom: none; /
+}
+
+th {
+    background-color: rgb(0, 0, 0);
+    color: pink;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*form tambah dan edit*/
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        padding: 20px;
+        background-color: #F8F8FF;
+        border-radius: 4px;
+    }
+
+    h2 {
+        color: #ffb6c1;
+        padding: 10px;
+        border-radius: 4px;
+        text-align: left;
+        margin-top: 0;
+        width: 99%;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        color: #ffb6c1;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #CCC;
+        border-radius: 4px;
+    }
+
+    .file-input {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .file-input-label {
+        display: inline-block;
+        background-color: #ffb6c1;
+        color: #FFFFFF;
+        padding: 5px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .file-input-label:hover {
+        background-color: #ffb6c1;
+    }
+
+    #gambar-preview {
+        margin-top: 10px;
+    }
+
+    .button-container {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .button {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .button.tambah {
+        background-color: #ffb6c1; 
+        color: #FFFFFF;
+        margin-right: 10px;
+    }
+
+    .button.tambah:hover {
+        background-color: #ffb6c1;
+    }
+
+    .button.back {
+        background-color: red; 
+        color: #FFFFFF;
+    }
+
+    .button.back:hover {
+        background-color: #FF0000;
+    }
+    img#preview-image {
+        display: block;
+        margin: 10px 0;
+        max-width: 200px;
+        max-height: 200px;
+      }
+
+
+
+
+
